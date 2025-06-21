@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header__title{
+    font-size: 60px;
+}
+
+.header__text{
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.header__text:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+    margin-left: 200px;
+}
+
+.container__img1, .container__img2, .container__img3, .container__img4{
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    vertical-align: top;
+    overflow: hidden;
+} 
+
+.food_img{
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.container__buttton{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.container__buttton:hover{
+    cursor: pointer;
+}
+.footer {
+margin-top: 50px;
+text-align: center;
+background-color: black;
+color: white;
+padding: 20px;
+}
+
+.data{
+    margin-left: 40%;
+    font-size: 20px;
+}
+.sendbut{
+    height: 30px;
+    width: 300px;
+    background-color: yellow;
+    color: black;
+}
+.sendbut:hover{
+    cursor: pointer;
+}
+
+.WatchVideo h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.input{
+    height: 20px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+.WatchVideo{
+    margin: 60px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+}
+.WatchVideo iframe{
+    margin-left: 300px;
+}
+
+
+
+
+
